@@ -1,0 +1,379 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 5000px
+}
+
+/* Framework */
+
+.container {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.table {
+    height: 100%;
+    display: table
+}
+
+.table-row {
+    display: table-row
+}
+
+.text-center {
+    text-align: center
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.main-color {
+    color: #f7600e
+}
+
+.main-background {
+    background-color:#f7600e
+}
+
+.overlay {
+    background: rgba(49, 55, 64, .8);
+    width: 100%;
+    height: 100%
+}
+
+.hidden {
+    display: none
+}
+/* Framework */
+
+/* Header */
+
+.header {
+    background: url('P.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header .overlay {
+    background: rgba(49, 55, 64, .8);
+    width: 100%;
+    height: 100%
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.header .navbar .links {
+    float: right
+}
+
+.header .navbar .links i {
+    margin-left: 5px
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.header .intro p {
+    margin: 5px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color: black
+}
+
+.header .buttons button {
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin: 0 8px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
+    
+}
+
+.header .buttons button:hover {
+    background-color: #f7600e;
+    border: 1px solid black;
+    color: black
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0
+}
+
+.header .arrow i {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+    cursor: pointer
+}
+
+/* Header */
+
+/* Feat */
+
+.feat {
+    padding: 60px;
+    overflow: hidden;
+}
+
+.feat .box {
+    width: 20%;
+    float: left;
+    margin-right: 60px 
+}
+
+.feat .box:last-child {
+    margin-right: 0
+}
+
+.feat .box i {
+    color: #f7600e;
+    border: 1px solid #f7600e;
+    width: 45%;
+    height: 50%;
+    border-radius: 50%;
+    line-height: 90px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.feat .box i:hover {
+    background-color: #f7600e;
+    border: 1px solid #CCC;
+    color: #FFF
+}
+
+
+.feat .box h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #505050
+}
+.feat .box p {color: #777; line-height: 2}
+
+/* End Feat */
+
+/* Start Sub */
+
+.sub {
+    background-image: url('P2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.sub .overlay {
+    background: rgba(49, 55, 64, .8);
+    width: 100%;
+    height: 100%
+}
+
+.sub form {
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center
+}
+
+.sub form input {
+    padding: 5px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    top:2px;
+    border:
+}
+
+.sub form button {
+    padding: 10px;
+    width: 150px;
+    border: 1px s;
+    background-color: #f7600e;
+    border: none;
+    color: #FFF;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 14px
+}
+/* End Sub */
+
+/* Work */
+
+.work {
+    padding: 50px 0
+}
+
+.work h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0
+}
+
+.work h2 ~ p {
+    line-height: 2;
+    margin: 10px 0 40px
+}
+
+.work .show-more {
+    background: transparent;
+    border:1px solid black;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.work .show-more:hover {
+    background-color: #f7600e;
+    border: 1px solid #CCC;
+    color: #FFF
+}
+
+.work .items-box {
+    overflow: hidden;
+}
+
+.work .items-box .item {
+    float: left;
+    width: 32%;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .8);
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none
+}
+
+.work .items-box .item:hover .over {
+    display: block;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.work .item .over h4 {
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    color: #FFF
+}
+
+.work .item .over p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 2;
+    color: #FFF
+}
+
+.work .item .over button {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.work .item .over button:hover {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #f7600e
+}
+
+/* End Work */
+
+/* Start Opi */
+
+.opi {
+    background: url('P1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.opi .client {
+    padding: 50px 0;
+    color: #FFF;
+    
+}
+
+.opi .client img {
+    border-radius: 50%;
+    height: 150px
+}
+
+.opi .client p {
+    line-height: 2;
+    font-size: 20px;
+    font-style: italic 
+}
+
+.opi .fa-chevron-right {
+    position: absolute;
+    top: 40%;
+    right:0;
+    color: #999;
+    cursor: pointer
+}
+
+.opi .fa-chevron-left {
+    position: absolute;
+    top: 40%;
+    left:0;
+    color: #999;
+    cursor: pointer
+}
+
+.opi .fa-chevron-right:hover,
+.opi .fa-chevron-left:hover {
+    color: #f7600e
+}
